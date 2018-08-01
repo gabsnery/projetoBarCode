@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         btnScan = (Button) findViewById(R.id.btnScan);
         final Activity activity = this;
 
+        
         btnScan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
